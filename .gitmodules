@@ -1,0 +1,6 @@
+[submodule "beamer-templates"]
+	path = beamer-templates
+	url = https://github.com/pcotret/beamer-templates
+[submodule "latex-template"]
+	path = latex-template
+	url = https://github.com/pcotret/latex-template

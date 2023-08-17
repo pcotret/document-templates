@@ -1,0 +1,43 @@
+%!TEX root = Manuscript.tex
+
+\chapter{Introduction}
+\label{chap:intro}
+\minitoc
+
+\section{Illustration Example}
+
+\subsection{A subsection just for fun}
+
+Sorry I won't write your PhD or HDR here. This small text just to mention that this style supports writing with accents such as in french words (thèse, définir, ...). Also I put here a simple way to include an image. This is standard latex. The base folder containing images is set in formatAndDefs.tex.
+
+\begin{figure}[!htbp]
+  \begin{center}
+    \includegraphics[width=0.9\textwidth]{Chapitre1/arctic_control}
+  \end{center}
+  \caption{A nice image...}
+  \label{fig:jolieImage}
+\end{figure}
+
+\section{An equation}
+
+Just to show argmin and partial derivative commands.
+
+\begin{equation}
+  T = \argmin_T E(T,R,F)
+\end{equation}
+
+Regularization:
+
+\begin{equation}
+  \pd{T}{t} = \Delta T
+\end{equation}
+
+\section{An other section}
+
+Showing a great bullet list environment:
+
+\begin{bulletList}
+ \item First point
+ \item Second point
+\item Here is an abbreviation \ac{DTI}, defined in the Acronyms.tex file
+\end{bulletList}
